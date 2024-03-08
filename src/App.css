@@ -1,7 +1,6 @@
 .App {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,14 +10,12 @@ body{
   width: 100%;
   margin: 0 auto;
 }
-
 li{
   list-style: none;
 }
 a{
   text-decoration: none;
 }
-
 nav{
   z-index: 10001;
 }
