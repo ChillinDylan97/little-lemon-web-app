@@ -14,19 +14,16 @@ a{
 nav{
   z-index: 10001;
 }
-
 .navbar {
   padding: 10px 13%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 nav ul li {
   display: inline-block;
   padding: 1em;
 }
-
 nav ul li a{
   color: #000;
 }
@@ -34,7 +31,6 @@ nav ul li a{
 nav ul li a:hover{
   text-decoration: underline solid #495E57;
 }
-
 .menu-icon {
   display: none;
   cursor: pointer;
