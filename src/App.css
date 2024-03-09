@@ -1,10 +1,5 @@
-.App {
-  text-align: center;
-}
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
+
 
 body{
   width: 100%;
@@ -82,7 +77,6 @@ padding: 10px 13%;
 position: relative;
 }
 
-
 h2 {
   color: #F4CE14;
   font-size: 40px;
@@ -123,7 +117,6 @@ button {
   border-radius: 20px;
 }
 
-
 form, .comfirm{
   padding: 10px 13%;
 }
@@ -144,7 +137,6 @@ input, label{
   outline: none;
   border-radius: 2px;
 }
-
 .btnReceive input{
   padding: 12px 16px;
   margin-top: 20px;
@@ -197,8 +189,6 @@ input, label{
 .menu-content{
   padding: 5px 15px;
 }
-
-
 .menu-content .heading{
   display: flex;
   justify-content: space-between;
@@ -281,6 +271,9 @@ form, .comfirm{
 .menu-container{
     margin: 20px 0;
   }
+.confirmation span{
+  color:yellow;
+}
 .menu-header{
     justify-content: flex-start;
 }

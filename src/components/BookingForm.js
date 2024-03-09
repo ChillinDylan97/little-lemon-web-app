@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 
-const BookingForm =()=>{
+const BookingForm =(props)=>{
     const [date, setDate]=useState("");
     const [times, setTimes]=useState("");
     const [guests, setGuest]=useState("");
     const [occasion, setOccasion]=useState("");
     const handleSubmit=(e)=>{
         e.preventDefault();
-        props.SubmitForm(e);
+        props.submitForm(e);
     }
     const handleChange =(e)=>{
     setDate(e);
