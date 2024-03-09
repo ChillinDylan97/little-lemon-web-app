@@ -51,7 +51,6 @@ const BookingForm =(props)=>{
         </header>
 
 
-    );
-};
-
+    )
+}
 export default BookingForm;

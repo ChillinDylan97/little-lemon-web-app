@@ -1,7 +1,6 @@
 import React from 'react';
 import recipes from '../recipes';
 import Swal from 'sweetalert2';
-
 const Menu=()=> {
     const handleOrder=(id)=>{
         console.log(id, "id has been selected");
@@ -19,11 +18,10 @@ const Menu=()=> {
                 'Your order is now being processed.',
                 'Success!'
               )
-            } 
+            }
           })
 
     }
-    
     return (
 <div className='menu-container'>
     <div className='menu-header'>
@@ -43,7 +41,7 @@ const Menu=()=> {
                         <button className='orderbtn' onClick={()=>handleOrder(recipe.id)}>Click To Order</button>
                     </div>
                     </div>)
-            }
+                }
         </div>
     </div>
     );

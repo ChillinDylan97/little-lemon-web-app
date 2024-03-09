@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import logo from '../images/Logo .svg'
-
     const Nav=()=>{
         const [menuOpen,setMenuOpen]=useState(false);
         const toggleMenu=()=>{setMenuOpen(!menuOpen);
@@ -39,7 +38,6 @@ import logo from '../images/Logo .svg'
                 </li>
             </ul>
         </nav>
-    );
-};
-
+    )
+}
 export default Nav;

@@ -19,6 +19,6 @@ const Header=() => {
                 </div>
             </section>
         </header>
-    );
-};
+    )
+}
 export default Header;
